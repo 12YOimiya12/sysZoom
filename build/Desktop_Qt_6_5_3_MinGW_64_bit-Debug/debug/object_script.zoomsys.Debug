@@ -1,0 +1,12 @@
+debug/add_student.o
+debug/loading_page.o
+debug/main.o
+debug/mainwindow.o
+debug/sqlconnect.o
+debug/useredit.o
+debug/qrc_resourse.o
+debug/qrc_style.o
+debug/moc_add_student.o
+debug/moc_loading_page.o
+debug/moc_mainwindow.o
+debug/moc_useredit.o

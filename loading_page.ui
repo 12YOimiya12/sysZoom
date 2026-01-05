@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>centerWidget</class>
+ <widget class="QWidget" name="centerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>549</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>loading_pages</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resourse.qrc">
+    <normaloff>:/new/prefix1/wall/22.jpg</normaloff>:/new/prefix1/wall/22.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border: none;
+border-radius: 5px;
+background: rgb(187, 212, 238);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <family>江西拙楷</family>
+         <pointsize>36</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>动物园管理系统</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="buddy">
+        <cstring>label_3</cstring>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="customWidget" native="true">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="1" column="0">
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>密码</string>
+          </property>
+          <property name="buddy">
+           <cstring>pwdinput</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>账号</string>
+          </property>
+          <property name="buddy">
+           <cstring>naminput</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="pwdinput">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="maxLength">
+           <number>114</number>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>请输入</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="naminput">
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="maxLength">
+           <number>114</number>
+          </property>
+          <property name="placeholderText">
+           <string>请输入：</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widgecustomWidgett_2" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="loadings">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>登录</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>90</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>15</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>退出</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

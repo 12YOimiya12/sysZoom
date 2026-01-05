@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UserEdit</class>
+ <widget class="QDialog" name="UserEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>486</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>江西拙楷</family>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="page_user">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>未来荧黑 Normal Medium</family>
+              <pointsize>20</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>编辑管理员信息</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget" native="true">
+            <layout class="QGridLayout" name="gridLayout">
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_4">
+               <property name="text">
+                <string>权限</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="lineEditname"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="text">
+                <string>姓名</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEditauth"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_3">
+               <property name="text">
+                <string>密码</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="lineEditpwd"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_2" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout">
+             <item>
+              <widget class="QPushButton" name="comfirmBtn_2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>确认</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="resetBtn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>重置</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="exitBtn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>退出</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_pre">
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QWidget" name="widget_10" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_20">
+            <property name="font">
+             <font>
+              <family>未来荧黑 Normal Medium</family>
+              <pointsize>20</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>编辑展台信息</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_11" native="true">
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_21">
+               <property name="text">
+                <string>展出数量</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="lineEditprenum"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_22">
+               <property name="text">
+                <string>展区代号</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEditauth_4"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_23">
+               <property name="text">
+                <string>展出动物</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="lineEditpreani"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_12" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QPushButton" name="comfirmBtn_pre">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>确认</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="resetBtn_pre">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>重置</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="exitBtn_4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>退出</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_room">
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QWidget" name="widget_7" native="true">
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="font">
+             <font>
+              <family>未来荧黑 Normal Medium</family>
+              <pointsize>20</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>编辑饲养所信息</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_8" native="true">
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_19">
+               <property name="text">
+                <string>面积</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEditarea"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="lineEditkind"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_18">
+               <property name="text">
+                <string>种类</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="lineEditroomnum"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>代号</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_9" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QPushButton" name="comfirmBtn_room">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>确认</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="resetBtn_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>重置</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="exitBtn_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>退出</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_ani">
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>441</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_5">
+          <property name="font">
+           <font>
+            <family>未来荧黑 Normal Medium</family>
+            <pointsize>20</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>编辑动物信息</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_5" native="true">
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="3" column="1">
+            <widget class="QLineEdit" name="gendet_edit"/>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="text">
+              <string>动物代号</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="num_Edit"/>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="name_edit"/>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>名称</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>数量</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>雌雄</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="time_edit"/>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>喂养时间</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="numsedit"/>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>食物</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QLineEdit" name="lineEditfood"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_6" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="comfirmBtn_ani">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>确认</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="resetBtn_ani">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>重置</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="exitBtn_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="text">
+              <string>退出</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

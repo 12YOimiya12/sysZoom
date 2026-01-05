@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cssresouerse/syus.css</file>
+        <file>cssresouerse/Amoled.qss</file>
+        <file>cssresouerse/Aqua.qss</file>
+        <file>cssresouerse/ConsoleStyle.qss</file>
+        <file>cssresouerse/Cyan.qss</file>
+        <file>cssresouerse/dark.qss</file>
+        <file>cssresouerse/ElegantDark.qss</file>
+        <file>cssresouerse/light.qss</file>
+        <file>cssresouerse/MacOS.qss</file>
+        <file>cssresouerse/ManjaroMix.qss</file>
+        <file>cssresouerse/MaterialDark.qss</file>
+        <file>cssresouerse/NeonButtons.qss</file>
+        <file>cssresouerse/Ubuntu.qss</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+release/add_student.o
+release/loading_page.o
+release/main.o
+release/mainwindow.o
+release/sqlconnect.o
+release/useredit.o
+release/qrc_resourse.o
+release/qrc_style.o
+release/moc_add_student.o
+release/moc_loading_page.o
+release/moc_mainwindow.o
+release/moc_useredit.o
